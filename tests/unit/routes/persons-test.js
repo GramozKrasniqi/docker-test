@@ -7,5 +7,5 @@ moduleFor('route:persons', 'Unit | Route | persons', {
 
 test('it exists', function(assert) {
   let route = this.subject();
-  assert.not(route);
+  assert.ok(route);
 });
